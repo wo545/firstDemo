@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<!DOCTYPE >
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="refresh" content="0.2;url=./userController/checkuser.do">
+<meta http-equiv="refresh" content="0.1;url=./userController/checkuser.do">
 <script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World!</h2>
+<!-- <h2>Hello World!</h2>
 
 <form action="./userController/adduser.do" method="post" name="fm">
 	  用户名 ： <input type="text" maxlength="30" name="userName"><br/>
@@ -36,6 +36,6 @@
 	function show(data1){
 		console.log(data1)
 	}
-</script>
+</script> -->
 </body>
 </html>
