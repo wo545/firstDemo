@@ -1,5 +1,11 @@
 /target
 /.settings
+<<<<<<< HEAD
 .classpath
 .project
 .springBeans
+=======
+.project
+.classpath
+.springBeans
+>>>>>>> 908c8831eebb6bff76646d5ffdba5947691cadb7
