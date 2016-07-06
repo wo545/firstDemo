@@ -22,8 +22,8 @@
     	    	    "text":"Languages",
     	    	    "state":"closed",
     	    	    "children":[{
-    	    	        "text":"Java",
-    	    	        "url":"../jsp/login.jsp"
+    	    	        "text":"User",
+    	    	        "url":"../jsp/usermanage.jsp"
     	    	    },{
     	    	        "text":"C#",
     	    	        "url":"../jsp/error.jsp"
