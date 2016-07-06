@@ -25,7 +25,7 @@
     	    	        "text":"User",
     	    	        "url":"../jsp/usermanage.jsp"
     	    	    },{
-    	    	        "text":"C#",
+    	    	        "text":"...",
     	    	        "url":"../jsp/error.jsp"
     	    	    }]
     	    	}],
