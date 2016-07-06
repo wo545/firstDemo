@@ -1,5 +1,7 @@
 package org.shiyf.controller;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -22,17 +24,16 @@ public class UserController {
 	@Resource
 	private UserServices userServices; 
 	@RequestMapping(value="adduser",method=RequestMethod.POST)
-	public String addUser(@RequestBody UserInfo userInfo
-			//String userName,String passWord,String sex,String age
-			){
+	public String addUser(@RequestBody UserInfo userInfo){
 		System.out.println("----------------useraddone");
 //		UserInfo userInfo =new UserInfo();
 //		userInfo.setUsername(userName);
 //		userInfo.setPassword(passWord);
 //		userInfo.setAge(age);
 //		userInfo.setSex(sex);
-		logger.info("添加用户信息");
-		userServices.addUser(userInfo);
+		logger.info("----------------useraddone");
+		System.out.println(userInfo);
+	//	userServices.addUser(userInfo);
 		return "welcome";
 	}
 	@RequestMapping(value="checkuser",method=RequestMethod.GET)
