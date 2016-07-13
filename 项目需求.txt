@@ -1,0 +1,24 @@
+类社区项目
+	1.首先项目需要有游客和登录状态
+	
+	登录
+	  可以发表文章、对别人评论、上传附件、可以关注他人
+	  
+	  未登录
+	     仅可以查看别人的文章、状态、首页。
+	2.要记录并显示在线人数、最高在线人数、用户量
+	
+
+https://git.oschina.net/juapk/spring-wind.git
+
+
+项目技术
+	spring、spring-mvc、mybatis、hibernate框架实现mvc
+	shiro控制登录权限
+	前台可自行书写或使用bootstrap
+	数据库使用mysql
+	log4j记录日志
+	版本管理工具git
+	项目管理 maven
+	
+	     
