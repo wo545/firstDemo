@@ -10,10 +10,10 @@
 		background: #6f6f62
 	}
 	
-	body{
+	/* body{
 		margin: 0;
 		border: 0;
-	}
+	} */
 	#logindiv{
 		position: absolute;
 	    top: 30%;
@@ -25,19 +25,45 @@
     	border-radius:5px;
 	    background-color: #6a676b
 	}
-	form{
+	table {
+		margin: 0 auto;
+    	margin-top: 50px;
+	}
+	table tr {
+	    line-height: 34px
+	}
+	table tr:last-child {
+	    text-align: center;
+	}
+	.reset {
+		margin-left: 20px; 
+	}
+	/* form{
 		text-align: center;
 		height: 200px;
 		vertical-align: middle;
-	}
+	} */
 </style>
 </head>
 <body>
 	<div id="logindiv">
 		<form action="../userController/userlogin.do" method="post" name="fm">
-			<span> 用户名 ：<input type="text" maxlength="30" name="userName"></span><br>
+			<!-- <span> 用户名 ：<input type="text" maxlength="30" name="userName"></span><br>
 			<span> 密    码 ： <input type="password" name="passWord"></span><br/>
-			<input type="submit" value="登陆">
+			<input type="submit" value="登陆"> -->
+			<table>
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" maxlength="30" name="userName"></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="passWord"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="登陆"><input class="reset" type="submit" value="注册"></td>
+				</tr>
+			</table>
 		</form>
 	</div>
 </body>
