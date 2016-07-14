@@ -10,6 +10,6 @@
     select * from userinfo 
   </select>
   <insert id="addOne" parameterType="userInfo">
-  	insert into userinfo values(#{username},#{password},#{sex},#{age},'book')
+  	insert into userinfo values(#{username},#{password},#{sex},#{age})
   </insert>
 </mapper>
